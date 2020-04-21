@@ -156,7 +156,7 @@ ul {
 }
 .img-wrap{
   position: relative;
-  max-height:300px;
+/*   max-height:300px; */
   flex: 50%;
 }
 .main-item .img-wrap:hover::before, .main-item .item-description:hover::before{

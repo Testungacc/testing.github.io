@@ -154,9 +154,9 @@ ul {
   display: block;
 }
 .img-wrap{
-  display: flex;
+ 
   position: relative;
-  max-height:400px; 
+ 
   flex: 50%;
 }
 .main-item .img-wrap:hover::before, .main-item .item-description:hover::before{

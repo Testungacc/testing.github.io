@@ -150,13 +150,12 @@ ul {
   display: flex;
 }
 .main-item img {
+
   width: 100%;
   display: block;
 }
 .img-wrap{
- 
   position: relative;
- 
   flex: 50%;
 }
 .main-item .img-wrap:hover::before, .main-item .item-description:hover::before{
@@ -332,7 +331,6 @@ ul {
     gap: 15px;
     grid-template-rows: auto auto auto auto auto;
 
-
   }
 
   .header {
@@ -377,8 +375,8 @@ ul {
     padding-left: 13px;
     text-align: center;
   }
-  .img-wrap, .item-description {
-    height: 400px;
+  .item-description .text {
+    flex-basis: 0;
   }
   .sidebar>div {
     padding: 14px 20px 0;

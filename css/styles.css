@@ -377,11 +377,9 @@ ul {
     padding-left: 13px;
     text-align: center;
   }
-
-  .main-item img {
-    width: 100%;
+  .img-wrap, .item-description {
+    height: 400px;
   }
-
   .sidebar>div {
     padding: 14px 20px 0;
   }

@@ -150,11 +150,11 @@ ul {
   display: flex;
 }
 .main-item img {
-
   width: 100%;
   display: block;
 }
 .img-wrap{
+  display: flex;
   position: relative;
 /*   max-height:300px; */
   flex: 50%;
